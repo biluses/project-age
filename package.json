@@ -1,0 +1,60 @@
+{
+  "name": "face-age-gender-recognition",
+  "version": "1.0.0",
+  "description": "A sophisticated web application for real-time face detection, age/gender estimation, and liveness detection using Next.js and face-api.js",
+  "private": false,
+  "keywords": [
+    "face-detection",
+    "age-estimation",
+    "gender-recognition",
+    "liveness-detection",
+    "anti-spoofing",
+    "nextjs",
+    "react",
+    "typescript",
+    "face-api",
+    "computer-vision",
+    "ai",
+    "machine-learning"
+  ],
+  "author": {
+    "name": "Sergio Suarez Martin",
+    "email": "sergiosuarezmartin@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biluses/project-age.git"
+  },
+  "homepage": "https://github.com/biluses/project-age#readme",
+  "bugs": {
+    "url": "https://github.com/biluses/project-age/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "face-api.js": "^0.22.2",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "eslint": "^9.23.0",
+    "eslint-config-next": "^15.2.4",
+    "glob": "^11.0.1",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  }
+}
